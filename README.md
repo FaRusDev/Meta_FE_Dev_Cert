@@ -1,0 +1,1 @@
+This is all task from coursera meta frontend developer certification
