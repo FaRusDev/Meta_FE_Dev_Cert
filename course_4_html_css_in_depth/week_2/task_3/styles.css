@@ -30,10 +30,10 @@
 
 .letters:hover p:nth-child(even) {
   transform: rotateY(360deg);
-  transition: 0.5s;
+  transition: 3s;
 }
 
 .letters:hover p:nth-child(odd) {
   transform: rotateX(360deg);
-  transition: 1.5s;
+  transition: 3s;
 }
