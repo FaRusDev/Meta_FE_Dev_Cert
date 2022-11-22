@@ -1,0 +1,96 @@
+body{
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 3rem 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    margin: auto;
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+section{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+article {
+    flex: 1;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+article > h2 {
+    text-align: center;
+}
+
+article > p{
+    text-align: justify;
+}
+
+article:hover {
+    transform: rotatey(360deg);
+    background-color: aqua;
+    transition: 2s ease;
+}
+
+article:active{
+    background-color: red;
+}
+
+@media screen and (max-width:800px) {
+    section{
+        flex-direction: column;
+    }
+}
+
+footer{
+    display: flex;
+    text-align: center;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div img{
+    animation: getIn 4s ease-in-out infinite;
+    position: relative;
+}
+
+@keyframes getIn {
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 50px;
+    }
+    100%{
+        margin-left: 100px;
+    }
+
+}
+
