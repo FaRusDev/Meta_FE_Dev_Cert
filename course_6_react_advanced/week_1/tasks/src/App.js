@@ -2,6 +2,7 @@
 import "./App.css";
 import DessertsList from "./components/DessertList";
 import Task2 from "./components/Task2/Task2";
+import Root from "./components/Task3/Task3";
 
 const desserts = [
   {
@@ -36,6 +37,11 @@ function App() {
       <br/>
       <h2>This is the task 2</h2>
       <Task2/>
+
+      <hr/>
+      <br/>
+      <h2>This is the task 3</h2>
+      <Root/>
 
     </div>
   );
