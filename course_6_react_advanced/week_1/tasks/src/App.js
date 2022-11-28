@@ -1,6 +1,7 @@
 //task 1
 import "./App.css";
 import DessertsList from "./components/DessertList";
+import Task2 from "./components/Task2/Task2";
 
 const desserts = [
   {
@@ -30,6 +31,12 @@ function App() {
     <div className="App">
       <h2>List of low calorie desserts:</h2>
       <DessertsList data={desserts} />
+
+      <hr/>
+      <br/>
+      <h2>This is the task 2</h2>
+      <Task2/>
+
     </div>
   );
 }
